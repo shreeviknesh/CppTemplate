@@ -1,4 +1,7 @@
 # CPP
+# Build directory
+[Bb]uild/
+
 # Prerequisites
 *.d
 
