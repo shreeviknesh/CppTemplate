@@ -3,8 +3,9 @@
 int fibonacci(int n) {
     if (n == 1 || n == 0 || n > 10) {
         return 1;
+    } else {
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
-    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 auto main() -> int {
